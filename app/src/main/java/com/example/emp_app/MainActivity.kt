@@ -11,14 +11,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnAddEmployee = findViewById<Button>(R.id.btnAddEmployee)
-        val btnViewEmployee = findViewById<Button>(R.id.btnViewEmployee)
-
         btnAddEmployee.setOnClickListener {
-            startActivity(Intent(this, AddEmployeeActivity::class.java))
+            val addemployee = Intent(applicationContext,addEmployee::class.java)
+            startActivity(addemployee)
         }
 
+        val btnViewEmployee = findViewById<Button>(R.id.btnViewEmployee)
         btnViewEmployee.setOnClickListener {
-            startActivity(Intent(this, ViewEmployeesActivity::class.java))
+            val addemployee = Intent(applicationContext,viewEmployee::class.java)
+            startActivity(addemployee)
         }
     }
 }

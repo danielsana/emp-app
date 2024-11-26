@@ -22,7 +22,6 @@
             android:hint="Username"
             android:padding="10dp"
             android:backgroundTint="#FFFFFF"
-            android:hintTextColor="#FFF000"
             android:textColorHint="#ffffff"
             android:textColor="#FFFFFF" />
 

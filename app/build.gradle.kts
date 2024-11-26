@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.emp_app"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.emp_app"
@@ -45,4 +45,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("com.loopj.android:android-async-http:1.4.9")
 }
