@@ -37,8 +37,7 @@ class viewEmployee : AppCompatActivity() {
                     val empdata = findViewById<TextView>(R.id.empdata)
                     empdata.append("Username:"+employee.get("username")+"\n")
                     empdata.append("Email:"+employee.get("email")+"\n")
-                    empdata.append("Department:"+employee.get("department")+"\n")
-                    empdata.append("\n\n")
+                    empdata.append("Department:"+employee.get("department")+"\n\n")
                 }
                 //Stop Progress from Loading
                 progressbar.visibility = View.GONE
